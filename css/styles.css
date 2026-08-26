@@ -350,24 +350,6 @@ table.price-table {
 .shipping-card h4 { margin: 0 0 6px; color: var(--verde-oscuro); }
 .shipping-card p { margin: 0; color: var(--texto-suave); font-size: 0.9rem; }
 
-.shipping-photo {
-  margin: 32px 0 0;
-  text-align: center;
-}
-
-.shipping-photo img {
-  width: 100%;
-  max-width: 720px;
-  border-radius: var(--radio);
-  box-shadow: var(--sombra);
-}
-
-.shipping-photo figcaption {
-  margin-top: 12px;
-  color: var(--texto-suave);
-  font-size: 0.88rem;
-}
-
 /* ---- Contacto ---- */
 .contact-section {
   background: var(--verde-oscuro);
