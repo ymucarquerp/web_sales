@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360" role="img" aria-label="Bandeja plástica para tomate (imagen referencial)">
+  <rect width="480" height="360" fill="#f4f1ea"/>
+  <!-- crate body -->
+  <g transform="translate(70,90)">
+    <polygon points="0,60 170,20 340,60 340,180 170,220 0,180" fill="#2f3b2f"/>
+    <polygon points="0,60 170,20 340,60 170,100" fill="#3d4d3d"/>
+    <polygon points="0,60 0,180 170,220 170,100" fill="#263026"/>
+    <!-- lattice lines on front face -->
+    <g stroke="#4a5a4a" stroke-width="3">
+      <line x1="170" y1="100" x2="170" y2="220"/>
+      <line x1="30" y1="72" x2="30" y2="192"/>
+      <line x1="60" y1="78" x2="60" y2="198"/>
+      <line x1="90" y1="84" x2="90" y2="204"/>
+      <line x1="120" y1="90" x2="120" y2="210"/>
+      <line x1="150" y1="96" x2="150" y2="216"/>
+      <line x1="10" y1="120" x2="160" y2="150"/>
+      <line x1="10" y1="150" x2="160" y2="180"/>
+    </g>
+    <!-- tomatoes -->
+    <circle cx="90" cy="60" r="16" fill="#c0392b"/>
+    <circle cx="125" cy="50" r="18" fill="#d64535"/>
+    <circle cx="160" cy="58" r="15" fill="#c0392b"/>
+    <circle cx="100" cy="38" r="7" fill="#4a7a3d"/>
+  </g>
+  <text x="240" y="330" font-family="Arial, sans-serif" font-size="16" fill="#8a8474" text-anchor="middle">Imagen referencial — reemplazar por foto real del producto</text>
+</svg>
