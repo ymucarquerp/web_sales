@@ -2,6 +2,21 @@
 
 Sitio estático (HTML/CSS/JS puro, sin frameworks) para catálogo + cotización por WhatsApp. 100% gratuito de operar.
 
+## Estado actual (deploy real)
+
+- **Repo:** https://github.com/ymucarquerp/web_sales
+- **Hosting:** Render (static site, plan free), auto-deploy activado en la rama `main`
+- **URL pública actual:** https://marquer.onrender.com
+- **Dominio propio (`marquer.cl`):** pendiente de conectar en Render → Settings → Custom Domains, y agregar los registros DNS resultantes en NIC.cl
+
+Para publicar cambios: edita los archivos, haz commit y `git push` — Render redespliega automático en ~1 minuto.
+
+```
+git add -A
+git commit -m "describe el cambio"
+git push
+```
+
 ## Estructura
 
 ```
@@ -22,20 +37,21 @@ img/               imágenes (partimos con un ícono referencial)
 
 Basta con abrir `index.html` con doble clic en cualquier navegador. No necesita servidor ni instalación.
 
-## Publicar gratis (recomendado: Netlify)
+## Publicar gratis (ya en uso: Render)
 
-1. Crea una cuenta gratis en [netlify.com](https://www.netlify.com).
-2. Arrastra la carpeta `web_sales` completa a la pantalla de "Deploy" (drag & drop, sin necesidad de Git).
-3. Netlify te da una URL gratuita tipo `nombre-random.netlify.app`. Pruébala.
-4. Para usar tu dominio **marquer.cl**:
-   - En Netlify: **Site settings → Domain management → Add custom domain** → escribe `marquer.cl`.
-   - Netlify te mostrará los registros DNS a configurar (normalmente un registro **A** para `marquer.cl` apuntando a su IP, y un **CNAME** para `www.marquer.cl` apuntando a tu-sitio.netlify.app).
-   - Entra a tu cuenta en [nic.cl](https://www.nic.cl) → administración del dominio `marquer.cl` → DNS, y agrega esos registros exactos que te dio Netlify.
-   - La propagación puede tardar algunas horas (a veces hasta 24-48h).
-   - Netlify emite el certificado HTTPS automáticamente una vez que el DNS propaga — no hay que hacer nada extra para eso.
+Ya está desplegado — ver "Estado actual" arriba. Pasos que ya se hicieron:
 
-### Alternativa: GitHub Pages
-Si prefieres usar GitHub Pages en vez de Netlify, se sube esta misma carpeta a un repositorio de GitHub y se activa Pages en la configuración del repo. También es gratis y soporta dominio propio vía registros DNS (A/CNAME) en nic.cl.
+1. Repo en GitHub (`ymucarquerp/web_sales`).
+2. Static site creado en Render, apuntando a ese repo, rama `main`, auto-deploy activado.
+3. Pendiente conectar el dominio **marquer.cl**:
+   - Dashboard de Render → el servicio `marquer` → **Settings → Custom Domains → Add Custom Domain** → escribe `marquer.cl` (y `www.marquer.cl` si quieres ambos).
+   - Render mostrará los registros DNS exactos a configurar (A/CNAME).
+   - Entra a tu cuenta en [nic.cl](https://www.nic.cl) → administración del dominio `marquer.cl` → DNS, y agrega esos registros.
+   - La propagación puede tardar horas (a veces hasta 24-48h).
+   - Render emite el certificado HTTPS automático una vez que el DNS propaga.
+
+### Alternativas (no en uso actualmente)
+Netlify (drag & drop, sin git) o GitHub Pages también sirven si en algún momento se quiere migrar el hosting — ambas son gratis y soportan dominio propio vía DNS en nic.cl.
 
 ## Próximos pasos posibles (no incluidos aún, quedan para más adelante)
 - Formulario de contacto además del botón de WhatsApp.
