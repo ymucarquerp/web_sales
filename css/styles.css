@@ -69,7 +69,7 @@ header.site-header {
   flex-shrink: 0;
 }
 
-.logo span { color: var(--rojo-tomate); }
+.logo-accent { color: var(--rojo-tomate); }
 
 nav.main-nav ul {
   list-style: none;
