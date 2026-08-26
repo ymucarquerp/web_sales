@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="Marquer">
+  <rect width="120" height="120" rx="26" fill="#1f3f27"/>
+
+  <!-- crate -->
+  <g>
+    <polygon points="22,72 98,72 88,98 32,98" fill="#f4f1ea"/>
+    <g stroke="#1f3f27" stroke-width="3">
+      <line x1="40" y1="72" x2="36" y2="98"/>
+      <line x1="55" y1="72" x2="53" y2="98"/>
+      <line x1="70" y1="72" x2="72" y2="98"/>
+      <line x1="85" y1="72" x2="89" y2="98"/>
+    </g>
+    <rect x="22" y="66" width="76" height="8" rx="2" fill="#f4f1ea"/>
+  </g>
+
+  <!-- tomato -->
+  <circle cx="60" cy="50" r="22" fill="#c0392b"/>
+  <circle cx="52" cy="42" r="6" fill="#d9584a" opacity="0.6"/>
+  <path d="M 60 28 Q 52 20 44 26 Q 52 24 56 30 Q 60 22 68 26 Q 60 24 60 28 Z" fill="#4a7a3d"/>
+</svg>

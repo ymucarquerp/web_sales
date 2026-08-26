@@ -52,11 +52,21 @@ header.site-header {
 }
 
 .logo {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
   font-size: 1.4rem;
   font-weight: 700;
   color: var(--verde-oscuro);
   text-decoration: none;
   letter-spacing: 0.5px;
+}
+
+.logo-icon {
+  width: 34px;
+  height: 34px;
+  border-radius: 8px;
+  flex-shrink: 0;
 }
 
 .logo span { color: var(--rojo-tomate); }
