@@ -311,6 +311,17 @@ table.price-table {
   font-weight: 400;
 }
 
+.tag-free-shipping {
+  display: inline-block;
+  margin-top: 4px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--verde-oscuro);
+  background: #e6f0e2;
+  padding: 3px 8px;
+  border-radius: 999px;
+}
+
 .price-note {
   margin-top: 18px;
   padding: 14px 18px;
