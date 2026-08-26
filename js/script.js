@@ -53,7 +53,7 @@ function initFaqChat() {
     },
     {
       q: "¿Hacen despacho a todo Chile?",
-      a: "Sí, despachamos a nivel nacional. El flete no está incluido en el precio del producto y se cotiza según tu comuna/región de destino — para pedidos que completan un camión (10+ pallets), el despacho puede salir gratis, previa evaluación de tu ubicación."
+      a: "Sí, despachamos a nivel nacional. El flete no está incluido en el precio del producto y se cotiza según tu comuna/región de destino — para pedidos que completan un camión (40+ pallets), el despacho puede salir gratis, previa evaluación de tu ubicación."
     },
     {
       q: "¿Cómo veo los precios?",
