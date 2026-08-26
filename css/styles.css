@@ -184,6 +184,12 @@ nav.main-nav a:hover { color: var(--verde); }
   color: var(--texto-suave);
 }
 
+.badge-new {
+  background: var(--verde-oscuro);
+  border-color: var(--verde-oscuro);
+  color: #fff;
+}
+
 /* ---- Section shared ---- */
 section { padding: 60px 0; }
 
@@ -215,7 +221,21 @@ section { padding: 60px 0; }
   filter: drop-shadow(0 8px 14px rgba(0, 0, 0, 0.15));
 }
 
-.product-media { flex: 1 1 320px; }
+.product-media { flex: 1 1 320px; position: relative; }
+
+.ribbon-new {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  background: var(--rojo-tomate);
+  color: #fff;
+  font-size: 0.78rem;
+  font-weight: 700;
+  padding: 6px 12px;
+  border-radius: 999px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+  z-index: 2;
+}
 .product-info { flex: 1 1 320px; }
 
 .product-info h3 {
