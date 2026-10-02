@@ -397,6 +397,14 @@ footer {
   border-top: 1px solid var(--borde);
 }
 
+footer .credito { margin: 8px 0 0; font-size: 0.78rem; }
+footer .credito a { color: inherit; font-weight: 600; }
+
+/* En celular, deja espacio para que los botones flotantes no tapen el pie de página */
+@media (max-width: 720px) {
+  footer { padding-bottom: 160px; }
+}
+
 /* ---- Sticky WhatsApp button (mobile-friendly) ---- */
 .whatsapp-float {
   position: fixed;
