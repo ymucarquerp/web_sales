@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", function () {
   // Botón "Cotizar por WhatsApp" en la tabla de precios:
   // arma un mensaje con el tramo elegido para que el cliente no tenga que escribir todo.
   document.querySelectorAll("[data-wa-msg]").forEach(function (btn) {
-    var base = "56963038624";
+    var base = "56975187441";
     var msg = encodeURIComponent(btn.getAttribute("data-wa-msg"));
     btn.setAttribute("href", "https://wa.me/" + base + "?text=" + msg);
   });
@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", function () {
 // No entiende texto libre: son respuestas fijas. Cualquier cosa que no cubra
 // se redirige a WhatsApp con un mensaje pre-armado.
 function initFaqChat() {
-  var WA_NUMBER = "56963038624";
+  var WA_NUMBER = "56975187441";
   var toggle = document.getElementById("faq-chat-toggle");
   var panel = document.getElementById("faq-chat-panel");
   var closeBtn = document.getElementById("faq-chat-close");
