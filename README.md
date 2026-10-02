@@ -31,7 +31,7 @@ img/               imágenes (partimos con un ícono referencial)
 1. **Precios** — en `index.html`, sección `#precios`, reemplaza los `$XXX` (marcados con "(editar)" en rojo) por tus precios reales por tramo de pallets.
 2. **Ficha técnica del producto** — sección `#producto`. Los datos actuales (470x340x270mm, 840g, resistencia 18kg, etc.) son referenciales, tomados de la ficha de otro proveedor del rubro. Reemplázalos por los datos reales de tu bandeja apenas los tengas.
 3. **Fotos** — reemplaza `img/bandeja-placeholder.svg` por fotos reales del producto (formato .jpg o .png, referenciadas en `index.html` donde dice `src="img/bandeja-placeholder.svg"`).
-4. **WhatsApp** — el número `+56 9 6303 8624` ya está puesto en todos los botones (nav, hero, tabla de precios, contacto, botón flotante). Si cambia, se reemplaza el número `56963038624` en `index.html` y `js/script.js`.
+4. **WhatsApp** — el número `+56 9 7518 7441` ya está puesto en todos los botones (nav, hero, tabla de precios, contacto, botón flotante). Si cambia, se reemplaza el número `56975187441` en `index.html` y `js/script.js`.
 
 ## Ver el sitio en tu computador
 
